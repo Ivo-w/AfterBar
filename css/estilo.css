@@ -133,8 +133,22 @@ a:hover {
 .Img1{
 	height: 400px;
 	width: 300px;
+	box-shadow: 1.5px 0.5px 8px black;
 }
-
+.waveInicio{
+	color: violet;
+	height: 150px; 
+	overflow: hidden;
+}
+.waveInicioNegro{
+	height: 150px; 
+	overflow: hidden;
+}
+.paddingEvento2{
+	padding: 50px;
+	padding-top: 100px;
+	padding-bottom:130px ;
+}
 /*------------ FIN VISTA DEL INICIO------------------*/
 /*------------ FOOTER ------------------*/
 
@@ -152,11 +166,7 @@ a:hover {
 	border:1px solid black;
 	box-shadow: 0px 2px 1px black;
 }
-.paddingEvento2{
-	padding: 50px;
-	padding-top: 100px;
-	padding-bottom: ;
-}
+
 /*------------ FIN FOOTER ------------------*/
 
 /*=====================================================*/
@@ -580,3 +590,22 @@ a:hover {
 	bottom: 0px;
 }
 /*------------ FIN FOOTER ------------------*/
+
+/*=====================================================*/
+/*-------------------PAGINA 404-----------------------*/
+/*=====================================================*/
+.errorTxt{
+	font-size: 50px;
+	font-family: Dash;
+	text-shadow: whitesmoke 1px 1px 1.1px;
+	color: black;
+}
+.errorDiv{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	padding-top: 400px;
+}
+.bgError{
+	background-color: #616161;
+}
