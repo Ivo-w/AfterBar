@@ -6,7 +6,7 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="../css/bootstrap.min.css">
     <!-- CSS propio -->
@@ -28,16 +28,16 @@
 		  <div class="collapse navbar-collapse navFlex " id="navbarNav">
 		    <ul class="navbar-nav navFlex navPadding">
 			      <li class="nav-item navLista">
-			        <a class="nav-link.disabled navFont" href="../index.html">Inicio<span class="sr-only">(current)</span></a>
+			        <a class="nav-link.disabled navFont navHoverTotal" href="../index.html">Inicio<span class="sr-only">(current)</span></a>
 			      </li>
 			      <li class="nav-item navLista">
-			        <a class="nav-link.disabled navFont aFixed" href="mapa.html">Mapa</a>
+			        <a class="nav-link.disabled navFont aFixed navHoverTotal" href="mapa.html">Mapa</a>
 			      </li>
 			      <li class="nav-item navLista">
-			        <a class="nav-link.disabled navFont" href="carta.html">Carta</a>
+			        <a class="nav-link.disabled navFont navHoverTotal" href="carta.html">Carta</a>
 			      </li>
 			      <li class="nav-item navLista">
-			        <a class="nav-link.disabled navFont" href="contacto.html" tabindex="-1" aria-disabled="true">Contacto</a>
+			        <a class="nav-link.disabled navFont navHoverTotal" href="contacto.html" tabindex="-1" aria-disabled="true">Contacto</a>
 			      </li>
 		    </ul>
 		  </div>
@@ -49,10 +49,11 @@
 		<div class="container-fluid ">
 		<div class="row">
 		<div class="col-lg-6 col-xs-12">
+			<div data-aos="fade-right">
 				<div class="tituloFormulario">
 					<h1 class="txtTamanio">CONTACTO</h1>
 				</div>
-
+			</div>
 				<div class="formulario">
 				<form action="">
 				<fieldset class="fieldset">
@@ -96,14 +97,14 @@
 				  <div class="collapse navbar-collapse footerFlex" id="navbarNav">
 					    <ul class="navbar-nav footerFlex navPadding">
 						      <li class="nav-item footerLista">
-						        <a class="nav-link.disabled navFont" href="../index.html">Inicio<span class="sr-only">(current)</span></a>
+						        <a class="nav-link.disabled navFont navHoverTotal" href="../index.html">Inicio<span class="sr-only">(current)</span></a>
 						      </li>
 						      <li class="nav-item footerLista">
-						        <a class="nav-link.disabled navFont aFixed" href="mapa.html">Mapa</a>
+						        <a class="nav-link.disabled navFont aFixed navHoverTotal" href="mapa.html">Mapa</a>
 						      </li>
 
 						      <li class="nav-item footerLista">
-						        <a class="nav-link.disabled navFont" href="contacto.html" tabindex="-1" aria-disabled="true">Contacto</a>
+						        <a class="nav-link.disabled navFont navHoverTotal" href="contacto.html" tabindex="-1" aria-disabled="true">Contacto</a>
 						      </li>
 					    </ul>
 				  </div>
@@ -115,5 +116,9 @@
     <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="../js/bootstrap.min.js"></script>
+     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+  		AOS.init();
+		</script>
   </body>
 </html>

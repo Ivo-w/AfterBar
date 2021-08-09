@@ -69,15 +69,19 @@ background-color: violet;
 	color: whitesmoke;
 	text-decoration: none;
 }
-a:hover {
+.navHoverTotal:hover {
 	color: #01c4e7;
 	text-decoration: line-through;
+	text-decoration: none;
 }
 /*------------ FIN NAV------------------*/
 
 /*------------VISTE DEL INICIO------------------*/
 .inicioBack{
 	background-color: black;
+}
+.imgWidth{
+	width: 100% ;
 }
 .imgInicio{
 	display: flex;
@@ -109,16 +113,16 @@ a:hover {
 .eventosTxt{
 	font-family: Dash;
 	font-size: 60px;
-	
 }
 .eventosTxt a{
 	color: #9a27f7;
-
+	text-decoration: overline;
 }
 .eventoFlex{
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
+	padding: 0;
 }
 
 .imgFlex{
@@ -145,9 +149,9 @@ a:hover {
 	overflow: hidden;
 }
 .paddingEvento2{
-	padding: 50px;
-	padding-top: 100px;
-	padding-bottom:130px ;
+	padding:10px ;
+	padding-top:50px ;
+	padding-bottom:100px ;
 }
 /*------------ FIN VISTA DEL INICIO------------------*/
 /*------------ FOOTER ------------------*/
@@ -209,7 +213,7 @@ background-color: violet;
 	color: whitesmoke;
 	text-decoration: none;
 }
-a:hover {
+.navHoverTotal:hover {
 	color: #01c4e7;
 	text-decoration: line-through;
 }
@@ -292,7 +296,7 @@ background-color: violet;
 	color: whitesmoke;
 	text-decoration: none;
 }
-a:hover {
+.navHoverTotal:hover {
 	color: #01c4e7;
 	text-decoration: line-through;
 }
@@ -404,7 +408,7 @@ background-color: violet;
 	color: whitesmoke;
 	text-decoration: none;
 }
-a:hover {
+.navHoverTotal:hover {
 	color: #01c4e7;
 	text-decoration: line-through;
 }
@@ -518,7 +522,7 @@ background-color: violet;
 	color: whitesmoke;
 	text-decoration: none;
 }
-a:hover {
+.navHoverTotal:hover {
 	color: #01c4e7;
 	text-decoration: line-through;
 }
