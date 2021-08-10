@@ -28,6 +28,17 @@ body{
 @font-face{
 	font-family: 'Roboto2';
 	src:  url('../assets/fonts/Roboto-Light.ttf');}
+@font-face{
+	font-family: 'Redwing';
+	src:  url('../assets/fonts/Redwing-Medium.otf');}
+@font-face{
+	font-family: 'PlatNomor';
+	src:  url('../assets/fonts/PlatNomor.otf');}
+@font-face{
+	font-family: 'MonoFont';
+	src:  url('../assets/fonts/monofonto.otf');
+}
+
 /*----------------FIN FONTS----------------*/
 
 /*=====================================================*/
@@ -111,7 +122,7 @@ background-color: violet;
 	padding-top: 20px;
 }
 .eventosTxt{
-	font-family: Dash;
+	font-family: Redwing;
 	font-size: 60px;
 }
 .eventosTxt a{
@@ -221,7 +232,7 @@ background-color: violet;
 
 /*------------ CONTENIDO ------------------*/
 .txtTamanio{
-	font-family: Roboto;
+	font-family: PlatNomor;
 	font-size: 40px;
 }
 .txtFlexMapa{
@@ -317,7 +328,7 @@ background-color: violet;
 
 }
 .txtTamanio{
-	font-family: Roboto;
+	font-family: PlatNomor;
 	font-size: 40px;
 }
 .paddingTxt{
@@ -426,7 +437,7 @@ background-color: violet;
 		justify-content: center;
 		padding: 80px;
 		height: 150px;
-		font-family: Roboto;
+		font-family: Redwing;
 		font-size: 22px;
 		color: black;
 	}
@@ -436,7 +447,7 @@ background-color: violet;
 	padding-bottom:20px;
 }
 .txtTamanio{
-	font-family: Roboto;
+	font-family: PlatNomor;
 	font-size: 40px;
 }
 .botonPad{
@@ -449,8 +460,9 @@ background-color: violet;
 		padding: 10px;
 }
 .enviarLetra{
-	font-family: Roboto;
+	font-family: Redwing;
 	font-size: 20px;
+	padding: 5px;
 }
 .datosFormulario{
 	font-family: Roboto2;
